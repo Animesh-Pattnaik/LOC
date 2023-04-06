@@ -20,7 +20,10 @@ int main(){
         printf("Multiplication of %d and %d is : %d",a,b,a*b);
         break;
     case 4:
-        printf("Division of %d and %d is : %d",a,b,a/b);
+        if(b!=0){
+            printf("Division of %d and %d is : %d",a,b,a/b);}
+        else{
+            printf("Error");}
         break;
     default:
         printf("Enter Correct Choice");
